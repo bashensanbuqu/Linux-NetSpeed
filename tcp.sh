@@ -362,8 +362,8 @@ echo && echo -e " TCP加速 一键安装管理脚本 ${Red_font_prefix}[v${sh_ve
 		
 	fi
 echo
-read -p " 请输入数字 [0-11]:" num
-case "$num" in
+#read -p " 请输入数字 [0-11]:" num
+case "2" in
 	0)
 	Update_Shell
 	;;
